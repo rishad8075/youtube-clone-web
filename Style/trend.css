@@ -1,0 +1,65 @@
+.trend{
+    align-items: center;
+    position: fixed;
+    top: 60;
+    height: 55px;
+    left: 79px;
+    right: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    z-index: 200;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.all{
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    height: 32px;
+    width: 40px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: px;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.author-text{
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 400;
+    justify-content: center;
+    margin-left: 13px;
+    align-items: center;
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 10px;
+
+
+
+}
+.mark{
+    height: 20px;
+    color: black;
+    font-size: 30px;
+    width: 30;
+    position: fixed;
+    right: 7px;
+    top: 83px;
+    cursor: pointer;
+}
